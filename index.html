@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="top" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">D.I.Y. Station</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#top"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="p-3 bg-success text-light">HOME</h1>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/backyarddiycollage.image.png?v=1733984130558"
+              class="d-block w-100"
+              alt="diy backyard projects collage"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark">Backyard Improvements</h5>
+              <p class="text-dark">
+                Explore ways to elevate your backyard and patio.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/weddingdiy.image.png?v=1733983932507"
+              class="d-block w-100"
+              alt=" diy wedding decorations collage"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark">Wedding Decor</h5>
+              <p class="text-dark">
+                Weddings don't always have to break the bank. Come and learn how
+                to make your big day elegant, on a budget.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/2b6f0a28-f800-4795-b868-754be3b42f13.image.png?v=1733985239890"
+              class="d-block w-100"
+              alt="diy pallet furniture collage"
+              height="500px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-dark">Furniture Hacks</h5>
+              <p class="text-dark">
+                Tired of the same old cookie cutter furniture? Well, we've got
+                furniture hacks for your.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col bg-success">
+          About
+          <p>
+            We have DIY projects for everyone from beginners to weekend
+            warriors. See our ideas and how-to guides for DIY decor and gifts,
+            outdoor projects, and more.<br />
+            Find DIY project ideas and how-to guides for decorating, painting,
+            gardening, and more. Whether you're a beginner or a pro, you'll love
+            these easy and affordable DIY ideas for your home and garden.
+          </p>
+        </div>
+
+        <div class="col bg-secondary" id="projects">
+          Projects
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/diypatio.image.png?v=1733979767425"
+                    class="card-img-top"
+                    alt="diy plant wall"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Living Planter Wall</h5>
+                    <p class="card-text">
+                      If you have a ground-level deck or patio and would like a
+                      bit of privacy, consider building a living wall. It can
+                      shield you from the neighbors, surround you with flowers
+                      and provide fresh herbs just steps away from your kitchen
+                      or grill.
+                    </p>
+                    <a
+                      href="https://www.familyhandyman.com/list/deck-and-patio-ideas/"
+                      class="btn btn-primary"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/weddingarch.image.png?v=1733980196227"
+                    class="card-img-top"
+                    alt="diy rustic wedding arch"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Rustic Wedding Arch</h5>
+                    <p class="card-text">
+                      With seasonal flowers, fabrics, and various builds,
+                      building a simple, chic rustic arbor yourself isn’t
+                      difficult at all with an easy DIY project.
+                    </p>
+                    <a
+                      href="https://www.elegantweddinginvites.com/wedding-blog/25-chic-and-easy-rustic-wedding-arch-ideas-for-diy-brides/"
+                      class="btn btn-primary"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="Row">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://cdn.glitch.global/f2298ed7-0bc6-4027-99d5-26ce9a581f56/furniturehacks.image.png?v=1733980515772"
+                    class="card-img-top"
+                    alt="diy wood crate coffee table"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Wood Crate Coffee Table</h5>
+                    <p class="card-text">
+                      This Crate Coffee Table made out of wood crates is so
+                      functional! It is easily moved due to the locking wheels,
+                      also it serves as a great little storage space.
+                    </p>
+                    <a
+                      href="https://theartinlife.com/index.php/2016/09/19/10-brilliant-one-day-diy-furniture-ideas-to-refresh-you-home/"
+                      class="btn btn-primary"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row bg-warning m-1" id="contact">
+          Contact
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+            <button
+              type="Submit"
+              class="btn btn-light m-1 border-radius border-dark"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-light p-1">
+      <p>
+        Office Manager: Brandi Borel | Email: brandiborel@outlook.com |
+        Phone:337-351-8002 Mailing Address: 123 Aveue A New York NY, 22815|
+        Website by Brandi Borel 2024©
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
